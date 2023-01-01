@@ -1,0 +1,164 @@
+/* Global styles ============= */
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  font-family: 'Muli', 'Helvetica', 'Arial', 'sans-serif';
+}
+
+a {
+  color: #474338;
+  transition: all .35s;
+}
+
+a:hover, a:focus {
+  color: #fcbd20;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
+  font-weight: 200;
+  letter-spacing: 1px;
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+section {
+  padding: 100px 0;
+}
+
+section h2 {
+  font-size: 50px;
+}
+
+#mainNav {
+  border-color: rgba(34, 34, 34, 0.05);
+  background-color:#839f9e;
+  transition: all .35s;
+  font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
+  font-weight: 200;
+  letter-spacing: 1px;
+}
+#mainNav .navbar-brand {
+  color: #fdcc52;
+  font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
+  font-weight: 200;
+  letter-spacing: 1px;
+}
+#mainNav .navbar-brand:hover, #mainNav .navbar-brand:focus {
+  color: #fcbd20;
+}
+#mainNav .navbar-toggler {
+  font-size: 12px;
+  padding: 8px 10px;
+  color: #231f1f;
+}
+#mainNav .navbar-nav > li > a.active {
+  color: #fdcc52 !important;
+  background-color: transparent;
+}
+#mainNav .navbar-nav > li > a.active:hover {
+  background-color: transparent;
+}
+#mainNav .navbar-nav > li > a.active:hover {
+  background-color: transparent;
+}
+
+
+header.masthead {
+  position: relative;
+  width: 100%;
+  height: 400px;
+  padding-top: 100px;
+  padding-bottom: 10px;
+  color: white;
+  background: url("../images/abstract-wave-wallpaper.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+header.masthead .row {
+  flex-wrap: nowrap;
+}
+header.masthead .header-content {
+  max-width: 500px;
+  margin-bottom: 100px;
+  text-align: end;
+}
+header.masthead .header-content h1 {
+  font-size: 30px;
+  color: royalblue;
+  text-shadow: 2px 4px 4px rgba(46,91,173,0.6);
+}
+header.masthead .device-container {
+  max-width: 325px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.sectionHeading h2 {
+  text-align: left;
+  color: bisque;
+}
+
+.sections {
+  padding-top: 3rem;
+}
+.sections .card {
+  border: 0;
+}
+.sections .card h4 {
+  font-size: 0.8rem;
+  font-family: "Varela Round", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  text-transform: uppercase;
+  letter-spacing: 0.15rem;
+}
+
+.content img:hover {
+  border: 5px solid;
+  border-color: aqua;
+}
+.sections .social {
+  margin-top: 5rem;
+}
+.sections .social a {
+  text-align: center;
+  height: 3rem;
+  width: 3rem;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 100%;
+  line-height: 3rem;
+  color: rgba(255, 255, 255, 0.3);
+}
+.sections .social a:hover {
+  color: rgba(255, 255, 255, 0.5);
+  border: 2px #222222 solid;
+}
+.sections .social a:active {
+  color: #fff;
+}
+
+footer {
+  padding: 25px 0;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.3);
+  background-color: #222222;
+  height: 50px;
+}
+
+footer p {
+  font-size: 12px;
+  margin: 0;
+}
+
