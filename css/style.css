@@ -1,4 +1,4 @@
-/* Global styles ============= */
+/* Global styles */
 html,
 body {
   width: 100%;
@@ -43,6 +43,9 @@ section h2 {
   font-size: 50px;
 }
 
+/* further style changes to bootstrap styles */
+
+/* navigation */
 #mainNav {
   border-color: rgba(34, 34, 34, 0.05);
   background-color:#839f9e;
@@ -76,7 +79,7 @@ section h2 {
   background-color: transparent;
 }
 
-
+/* hero banner */
 header.masthead {
   position: relative;
   width: 100%;
@@ -107,6 +110,7 @@ header.masthead .device-container {
   margin-left: auto;
 }
 
+/*sections emblishments */
 .sectionHeading h2 {
   text-align: left;
   color: bisque;
@@ -115,6 +119,8 @@ header.masthead .device-container {
 .sections {
   padding-top: 3rem;
 }
+
+/* card specifics */
 .sections .card {
   border: 0;
 }
@@ -129,6 +135,8 @@ header.masthead .device-container {
   border: 5px solid;
   border-color: aqua;
 }
+
+/* social media specifics */
 .sections .social {
   margin-top: 5rem;
 }
